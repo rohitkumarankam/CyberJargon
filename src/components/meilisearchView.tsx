@@ -54,7 +54,7 @@ export function MeilisearchView() {
             {terms.map((term) => (
               <div
                 key={term.acronym}
-                className="bg-card p-6 rounded-lg shadow-lg cursor-pointer hover:bg-card-hover"
+                className="bg-card border-2 border-gray p-6 bg-color-foreground rounded-lg shadow-lg cursor-pointer hover:bg-card-hover"
                 onClick={() => handleTermSelect(term)}
               >
                 <h2 className="text-xl font-bold mb-2 inline">

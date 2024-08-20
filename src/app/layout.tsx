@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const fontSans = FontSans({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -25,11 +26,18 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="system"
+        enableSystem={true}
+        disableTransitionOnChange={true}
+        >
         <div className="flex flex-col min-h-screen">
           <Header />
           <main className="flex-grow">{children}</main>
           <Footer />
         </div>
+        </ThemeProvider>
       </body>
     </html>
   );
