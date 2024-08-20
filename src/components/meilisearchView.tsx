@@ -1,8 +1,8 @@
 "use client";
-
 import { useState, useEffect } from "react";
 import client from "@/lib/meilisearch";
 import { Input } from "@/components/ui/input";
+import { Skeleton } from "@/components/ui/skeleton";
 
 interface Acronym {
   acronym: string;
@@ -13,10 +13,22 @@ interface Acronym {
   Related: { title: string; url: string }[];
 }
 
+export function SkeletonCard() {
+  return (
+    <div className="flex flex-col space-y-3">
+      <Skeleton className="h-[30px] rounded-xl" />
+      <div className="space-y-2">
+        <Skeleton className="h-[50px] rounded-xl" />
+      </div>
+    </div>
+  );
+}
+
 export function MeilisearchView() {
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [selectedTerm, setSelectedTerm] = useState<Acronym | null>(null);
   const [terms, setTerms] = useState<Acronym[]>([]);
+  const [loading, setLoading] = useState<boolean>(false);
 
   useEffect(() => {
     const fetchTerms = async () => {
@@ -25,9 +37,14 @@ export function MeilisearchView() {
         return;
       }
 
+      setLoading(true);
+      console.log("Searching for:", searchTerm);
+
       const index = client.index("jargon");
       const searchResults = await index.search<Acronym>(searchTerm);
       setTerms(Array.isArray(searchResults.hits) ? searchResults.hits : []);
+
+      setLoading(false);
     };
 
     fetchTerms();
@@ -49,7 +66,9 @@ export function MeilisearchView() {
             className="w-full"
           />
         </div>
-        {Array.isArray(terms) && terms.length > 0 ? (
+        {loading ? (
+          <SkeletonCard />
+        ) : Array.isArray(terms) && terms.length > 0 ? (
           <div className="grid gap-6">
             {terms.map((term) => (
               <div
