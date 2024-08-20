@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import client from "@/lib/meilisearch";
 import { Input } from "@/components/ui/input";
 import { Skeleton } from "@/components/ui/skeleton";
+import { Separator } from "@/components/ui/separator"
+
 
 interface Acronym {
   acronym: string;
@@ -78,14 +80,15 @@ export function MeilisearchView() {
                 <h2 className="text-xl font-bold mb-2 inline">
                   {term.acronym + ":"}
                 </h2>
-                <p className="text-muted-foreground mb-4 inline pl-1">
+                <p className="text-muted-foreground inline pl-1">
                   {term.meaning}
                 </p>
-                <p className="text-muted-foreground mb-4 py-1">
+                <p className="text-muted-foreground py-1">
                   {term.shortDescription}
                 </p>
                 {selectedTerm?.acronym === term.acronym && (
                   <div>
+                    <Separator className="mb-4"/>
                     <p className="mb-4">{term.LongDescription}</p>
                     <div className="flex flex-wrap gap-2">
                       <span className="px-2 py-1 text-muted-foreground text-sm">
