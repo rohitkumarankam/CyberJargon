@@ -38,7 +38,6 @@ export function MeilisearchView() {
       }
 
       setLoading(true);
-      console.log("Searching for:", searchTerm);
 
       const index = client.index("jargon");
       const searchResults = await index.search<Acronym>(searchTerm);
@@ -125,7 +124,7 @@ export function MeilisearchView() {
             ))}
           </div>
         ) : (
-          <div className="text-center text-muted-foreground">
+          <div className="text-center text-muted-foreground pt-9">
             No terms found.
           </div>
         )}
