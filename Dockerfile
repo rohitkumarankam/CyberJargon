@@ -66,3 +66,5 @@ ENV PORT=3000
 # https://nextjs.org/docs/pages/api-reference/next-config-js/output
 ENV HOSTNAME="0.0.0.0"
 CMD ["node", "server.js"]
+
+HEALTHCHECK --interval=30s --timeout=30s --start-period=5s CMD [ "wget", "-q","--spider", "http://127.0.0.1:3000/" ]
