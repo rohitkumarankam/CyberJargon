@@ -18,7 +18,7 @@
 			abortController = new AbortController();
 			isSearching = true;
 
-			const response = await axios.get(env.PUBLIC_MEILISEARCH_URL, {
+			const response = await axios.get(env.PUBLIC_MEILISEARCH_URL + '/indexes/acronyms/search', {
 				params: { q: term },
 				headers: { Authorization: `Bearer ${env.PUBLIC_MEILISEARCH_KEY}` },
 				signal: abortController.signal
@@ -71,7 +71,7 @@
 {:else if results.length > 0}
 	<ul>
 		{#each results as result}
-			<li>{result.acronym}: {result.keys}</li>
+			<li><a href="/acronym/{result.slug}">{result.full_form} ({result.acronym})</a></li>
 		{/each}
 	</ul>
 {:else if searchTerm}
