@@ -36,3 +36,9 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+curl \
+ -X POST 'http://localhost:7700/indexes/acronyms/list?primaryKey=acronym' \
+ -H 'Content-Type: application/json' \
+ -H 'Authorization: Bearer qbnfk3hOIG7tk2yCToaXq4kFEFTz3HmoXlB9L3MT6Ug' \
+ --data-binary @meilisearch/data.json
