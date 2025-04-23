@@ -10,4 +10,4 @@ export const load = async ({ params }) => {
 	return { acronym: acronyms };
 };
 
-// export const ssr = true;
+export const ssr = true;
