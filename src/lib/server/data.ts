@@ -43,21 +43,21 @@ const getAcronymBySlug = (slug: String) => {
 export { getAcronymBySlug, syncwithsearch };
 export default acronyms;
 
-function syncwithsearch() {
+async function syncwithsearch() {
 	const axiosinstance = axios.create({
 		baseURL: process.env.PUBLIC_MEILISEARCH_URL,
 		headers: {
 			'Content-Type': 'application/json',
-			Authorization: 'Bearer ' + process.env.MASTER_KEY
+			Authorization: 'Bearer ' + process.env.MEILISEARCH_KEY
 		}
 	});
 	try {
-		axiosinstance.delete('/indexes/acronyms');
-		axiosinstance.post('/indexes', {
+		await axiosinstance.delete('/indexes/acronyms');
+		await axiosinstance.post('/indexes', {
 			uid: 'acronyms',
 			primaryKey: 'slug'
 		});
-		axiosinstance.post('/indexes/acronyms/documents?primaryKey=slug', acronyms);
+		await axiosinstance.post('/indexes/acronyms/documents?primaryKey=slug', acronyms);
 		console.log('success');
 	} catch (e) {
 		console.log(e);

@@ -1,2 +1,2 @@
 import { syncwithsearch } from './src/lib/server/data';
-syncwithsearch();
+await syncwithsearch();
