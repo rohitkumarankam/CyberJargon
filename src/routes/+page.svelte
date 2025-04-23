@@ -64,16 +64,36 @@
 	});
 </script>
 
-<input type="text" bind:value={searchTerm} />
+<div class="container">
+	<h1>Cyber Jargon</h1>
+	<p>Acronyms searchengine for ever evolving terminology.</p>
+	<input type="text" bind:value={searchTerm} />
 
-{#if isSearching}
-	<p>Searching...</p>
-{:else if results.length > 0}
-	<ul>
-		{#each results as result}
-			<li><a href="/acronym/{result.slug}">{result.full_form} ({result.acronym})</a></li>
-		{/each}
-	</ul>
-{:else if searchTerm}
-	<p>No results found</p>
-{/if}
+	{#if isSearching}
+		<p>Searching...</p>
+	{:else if results.length > 0}
+		<ul>
+			{#each results as result}
+				<li><a href="/acronym/{result.slug}">{result.full_form} ({result.acronym})</a></li>
+			{/each}
+		</ul>
+	{:else if searchTerm}
+		<p>No results found</p>
+	{:else}
+		<p>Here are some suggestions:</p>
+		<ul>
+			<li><a href="/acronym/advanced-package-tool">APT (Advanced Package Tool)</a></li>
+			<li><a href="/acronym/advanced-persistent-threat">APT (Advanced Persistent Threat)</a></li>
+			<!-- <li><a href="/acronym/iot">IoT (Internet of Things)</a></li> -->
+		</ul>
+	{/if}
+</div>
+
+<style>
+	.container {
+		max-width: 600px;
+		margin: 0 auto;
+		padding: 20px;
+		text-align: center;
+	}
+</style>

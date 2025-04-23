@@ -6,7 +6,7 @@
 
 {#if data.acronym}
 	<div class="acronym">
-		{JSON.stringify(data.acronym)}
+		<!-- {JSON.stringify(data.acronym)} -->
 		<h1>{data.acronym.slug}</h1>
 		<p>{data.acronym.acronym}</p>
 		<p>{data.acronym.full_form}</p>
