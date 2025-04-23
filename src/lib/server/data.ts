@@ -29,6 +29,34 @@ const acronyms: acronym[] = [
 		markdown:
 			'### Advanced Persistent Threat (APT)\n#### Definition\nAdvanced Persistent Threat (APT) refers to a prolonged and targeted cyberattack in which an intruder gains access to a network and remains undetected for an extended period.\n\n#### Characteristics\n* Prolonged and targeted cyberattack\n* Intruder gains access to a network and remains undetected for an extended period\n* Often associated with state-sponsored actors or organized crime groups\n\n',
 		related: ['advanced-package-tool']
+	},
+	{
+		slug: 'cloud-native-application-protection-platform',
+		acronym: 'CNAPP',
+		full_form: 'Cloud-Native Application Protection Platform',
+		description:
+			'CNAPP is a security solution designed to protect cloud-native applications throughout their lifecycle. It integrates various security tools and practices to ensure the security of applications deployed in cloud environments.',
+		markdown:
+			'## Cloud-Native Application Protection Platform (CNAPP)\n\nThe Cloud-Native Application Protection Platform (CNAPP) is a security solution designed to protect cloud-native applications throughout their lifecycle. It integrates various security tools and practices to ensure the security of applications deployed in cloud environments.\n\n### Key Features:\n\n* Comprehensive security for cloud-native applications\n* Integration of various security tools and practices\n* Continuous monitoring and assessment of application security\n\n### Usage:\n\n* Protects applications from development to production\n* Ensures compliance with security standards and regulations\n* Provides visibility into application security posture\n\n',
+		related: []
+	},
+	{
+		slug: 'pluggable-authentication-module',
+		acronym: 'PAM',
+		full_form: 'Pluggable Authentication Module',
+		description:
+			'PAM is a framework that provides a way to develop authentication-related programs in a modular fashion. It allows system administrators to choose how applications authenticate users without modifying the applications themselves.',
+		markdown: '#todo',
+		related: []
+	},
+	{
+		slug: 'privileged-access-management',
+		acronym: 'PAM',
+		full_form: 'Privileged Access Management',
+		description:
+			'Privileged Access Management (PAM) refers to the processes and technologies used to control and monitor access to critical systems and sensitive information by privileged users. PAM solutions help organizations manage and secure privileged accounts, ensuring that only authorized users have access to sensitive resources.',
+		markdown: '#todo',
+		related: []
 	}
 ];
 
