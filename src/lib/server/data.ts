@@ -17,7 +17,7 @@ const acronyms: acronym[] = [
 		description:
 			'APT is a package management system used by Debian and its derivatives, such as Ubuntu. It simplifies the process of installing, upgrading, and removing software packages.',
 		markdown:
-			'## Advanced Package Tool (APT)\n\nThe Advanced Package Tool (APT) is a package management system used by Debian and its derivatives, such as Ubuntu. It simplifies the process of installing, upgrading, and removing software packages.\n\n### Key Features:\n\n* Simplifies package management\n* Handles dependencies automatically\n* Supports various package sources (repositories)\n\n### Usage:\n\n* `apt-get`: Command-line tool for package management\n* `apt-cache`: Tool for searching and displaying package information\n* `apt-key`: Tool for managing package keys\n\n',
+			'### Key Features:\n\n* Simplifies package management\n* Handles dependencies automatically\n* Supports various package sources (repositories)\n\n### Usage:\n\n* `apt-get`: Command-line tool for package management\n* `apt-cache`: Tool for searching and displaying package information\n* `apt-key`: Tool for managing package keys\n\n',
 		related: ['advanced-persistent-threat']
 	},
 	{
