@@ -174,6 +174,12 @@
 		font-size: 18px;
 	}
 
+	:root[data-theme='dark'] {
+		a {
+			color: #8ab4f8;
+		}
+	}
+
 	a:hover {
 		text-decoration: underline;
 	}
