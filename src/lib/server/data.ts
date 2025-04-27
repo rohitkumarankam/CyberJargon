@@ -1497,6 +1497,96 @@ const acronyms: acronym[] = [
 			'IoT refers to the interconnection of everyday objects and devices to the Internet, allowing them to send and receive data. It enables smart devices to communicate and interact with each other and with users.',
 		markdown: '#todo',
 		related: []
+	},
+	// remote-authentication-dial-in-user-service
+	{
+		slug: 'remote-authentication-dial-in-user-service',
+		acronym: 'RADIUS',
+		full_form: 'Remote Authentication Dial In User Service',
+		description:
+			'RADIUS is a networking protocol that provides centralized Authentication, Authorization, and Accounting (AAA) management for users who connect and use a network service.',
+		markdown: '#todo',
+		related: []
+	},
+	// identity-access-management
+	{
+		slug: 'identity-access-management',
+		acronym: 'IAM',
+		full_form: 'Identity Access Management',
+		description:
+			'IAM is a framework of policies and technologies that ensures the right individuals have the appropriate access to technology resources. It includes user identity management, authentication, and authorization.',
+		markdown: '#todo',
+		related: []
+	},
+	// multi-factor-authentication
+	{
+		slug: 'multi-factor-authentication',
+		acronym: 'MFA',
+		full_form: 'Multi-Factor Authentication',
+		description:
+			'MFA is a security mechanism that requires users to provide two or more verification factors to gain access to a resource, such as an application or online account. It enhances security by adding additional layers of authentication.',
+		markdown: '#todo',
+		related: []
+	},
+	// third-party-risk-management
+	{
+		slug: 'third-party-risk-management',
+		acronym: 'TPRM',
+		full_form: 'Third Party Risk Management',
+		description:
+			'TPRM is the process of identifying, assessing, and managing risks associated with third-party vendors and service providers. It helps organizations mitigate potential risks that could arise from their relationships with external parties.',
+		markdown: '#todo',
+		related: []
+	},
+	// chief-information-security-officer
+	{
+		slug: 'chief-information-security-officer',
+		acronym: 'CISO',
+		full_form: 'Chief Information Security Officer',
+		description:
+			"CISO is a senior executive responsible for an organization's information and data security. They oversee the development and implementation of security policies, procedures, and strategies to protect the organization's assets.",
+		markdown: '#todo',
+		related: []
+	},
+	// chief-technology-officer
+	{
+		slug: 'chief-technology-officer',
+		acronym: 'CTO',
+		full_form: 'Chief Technology Officer',
+		description:
+			'CTO is a senior executive responsible for the technological direction of an organization. They oversee the development and implementation of technology strategies, ensuring that technology aligns with business goals.',
+		markdown: '#todo',
+		related: []
+	},
+	// chief-security-officer
+	{
+		slug: 'chief-security-officer',
+		acronym: 'CSO',
+		full_form: 'Chief Security Officer',
+		description:
+			"CSO is a senior executive responsible for the security of an organization's physical and digital assets. They oversee security policies, procedures, and strategies to protect the organization from threats.",
+		markdown: '#todo',
+		related: []
+	},
+	// supplier-information-security-requirements
+	{
+		slug: 'supplier-information-security-requirements',
+		acronym: 'SISR',
+		full_form: 'Supplier Information Security Requirements',
+		description:
+			'SISR refers to the security requirements that organizations impose on their suppliers to ensure the protection of sensitive information and data. It helps organizations manage third-party risks and maintain security standards.',
+		markdown: '#todo',
+		related: []
+	},
+	// continuous-cyber-risk-management
+	{
+		slug: 'continuous-cyber-risk-management',
+		acronym: 'CCRM',
+		full_form: 'Continuous Cyber Risk Management',
+		description:
+			'CCRM is an ongoing process of identifying, assessing, and mitigating cyber risks to an organization. It involves continuous monitoring and evaluation of security measures to adapt to evolving threats.',
+		markdown: '#todo',
+		related: []
 	}
 ];
 
