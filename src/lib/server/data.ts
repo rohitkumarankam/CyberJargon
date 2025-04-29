@@ -1587,6 +1587,36 @@ const acronyms: acronym[] = [
 			'CCRM is an ongoing process of identifying, assessing, and mitigating cyber risks to an organization. It involves continuous monitoring and evaluation of security measures to adapt to evolving threats.',
 		markdown: '#todo',
 		related: []
+	},
+	// endpoint-detection-and-response
+	{
+		slug: 'endpoint-detection-and-response',
+		acronym: 'EDR',
+		full_form: 'Endpoint Detection and Response',
+		description:
+			'EDR is a security solution that monitors and responds to threats on endpoints, such as computers and mobile devices. It provides real-time visibility and analysis of endpoint activity to detect and respond to security incidents.',
+		markdown: '#todo',
+		related: []
+	},
+	// extended-detection-and-response
+	{
+		slug: 'extended-detection-and-response',
+		acronym: 'XDR',
+		full_form: 'Extended Detection and Response',
+		description:
+			"XDR is a security solution that integrates multiple security products into a unified platform for threat detection and response. It provides a holistic view of security events across an organization's environment.",
+		markdown: '#todo',
+		related: []
+	},
+	// managed-detection-and-response
+	{
+		slug: 'managed-detection-and-response',
+		acronym: 'MDR',
+		full_form: 'Managed Detection and Response',
+		description:
+			'MDR is a security service that provides organizations with threat detection and response capabilities. It combines advanced technology with human expertise to monitor, detect, and respond to security incidents.',
+		markdown: '#todo',
+		related: []
 	}
 ];
 
