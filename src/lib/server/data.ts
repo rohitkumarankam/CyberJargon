@@ -1617,6 +1617,46 @@ const acronyms: acronym[] = [
 			'MDR is a security service that provides organizations with threat detection and response capabilities. It combines advanced technology with human expertise to monitor, detect, and respond to security incidents.',
 		markdown: '#todo',
 		related: []
+	},
+	// automatic-certificate-management-environment
+	{
+		slug: 'automatic-certificate-management-environment',
+		acronym: 'ACME',
+		full_form: 'Automatic Certificate Management Environment',
+		description:
+			'ACME is a protocol used to automate the process of managing SSL/TLS certificates. It allows web servers to automatically obtain and renew certificates from a certificate authority, simplifying the management of secure connections.',
+		markdown: '#todo',
+		related: []
+	},
+	// certificate-authority
+	{
+		slug: 'certificate-authority',
+		acronym: 'CA',
+		full_form: 'Certificate Authority',
+		description:
+			'CA is an entity that issues digital certificates to verify the identity of individuals, organizations, or devices. It plays a crucial role in establishing trust in online communications and transactions.',
+		markdown: '#todo',
+		related: []
+	},
+	// certificate-signing-request
+	{
+		slug: 'certificate-signing-request',
+		acronym: 'CSR',
+		full_form: 'Certificate Signing Request',
+		description:
+			'CSR is a message sent from an applicant to a certificate authority to apply for a digital certificate. It contains information about the applicant and the public key that will be included in the certificate.',
+		markdown: '#todo',
+		related: []
+	},
+	// certificate-transparency
+	{
+		slug: 'certificate-transparency',
+		acronym: 'CT',
+		full_form: 'Certificate Transparency',
+		description:
+			'CT is a framework for monitoring and auditing digital certificates to prevent the issuance of fraudulent certificates. It provides a public log of all issued certificates, enhancing security and trust in the certificate ecosystem.',
+		markdown: '#todo',
+		related: []
 	}
 ];
 
