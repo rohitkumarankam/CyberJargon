@@ -1657,6 +1657,26 @@ const acronyms: acronym[] = [
 			'CT is a framework for monitoring and auditing digital certificates to prevent the issuance of fraudulent certificates. It provides a public log of all issued certificates, enhancing security and trust in the certificate ecosystem.',
 		markdown: '#todo',
 		related: []
+	},
+	// computer-generated-imagery
+	{
+		slug: 'computer-generated-imagery',
+		acronym: 'CGI',
+		full_form: 'Computer Generated Imagery',
+		description:
+			'CGI refers to the creation of still or animated visual content with computer software. It is widely used in movies, video games, and virtual reality applications to create realistic images and animations.',
+		markdown: '#todo',
+		related: []
+	},
+	// personally-identifiable-information
+	{
+		slug: 'personally-identifiable-information',
+		acronym: 'PII',
+		full_form: 'Personally Identifiable Information',
+		description:
+			'PII is any information that can be used to identify an individual, such as name, address, phone number, and social security number. It is subject to privacy regulations and must be protected to prevent identity theft and data breaches.',
+		markdown: '#todo',
+		related: []
 	}
 ];
 
