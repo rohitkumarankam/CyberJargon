@@ -1508,6 +1508,46 @@ const acronyms: acronym[] = [
 		markdown: '#todo',
 		related: []
 	},
+	// virtual-local-area-network
+	{
+		slug: 'virtual-local-area-network',
+		acronym: 'VLAN',
+		full_form: 'Virtual Local Area Network',
+		description:
+			'VLAN is a logical grouping of devices on a local area network (LAN) that allows for segmentation and isolation of network traffic. It improves network performance and security by separating different types of traffic.',
+		markdown: '#todo',
+		related: []
+	},
+	// virtual-private-network
+	{
+		slug: 'virtual-private-network',
+		acronym: 'VPN',
+		full_form: 'Virtual Private Network',
+		description:
+			'VPN is a technology that creates a secure and encrypted connection over a less secure network, such as the Internet. It allows users to send and receive data as if their devices were directly connected to a private network.',
+		markdown: '#todo',
+		related: []
+	},
+	// network-access-control
+	{
+		slug: 'network-access-control',
+		acronym: 'NAC',
+		full_form: 'Network Access Control',
+		description:
+			'NAC is a security solution that enforces policies on devices attempting to access a network. It ensures that only authorized and compliant devices can connect to the network, enhancing security and reducing risks.',
+		markdown: '#todo',
+		related: []
+	},
+	// simple-network-management-protocol
+	{
+		slug: 'simple-network-management-protocol',
+		acronym: 'SNMP',
+		full_form: 'Simple Network Management Protocol',
+		description:
+			'SNMP is a standard protocol used for managing devices on IP networks. It allows network administrators to monitor and control network devices, such as routers and switches, and gather performance data.',
+		markdown: '#todo',
+		related: []
+	},
 	// identity-access-management
 	{
 		slug: 'identity-access-management',
