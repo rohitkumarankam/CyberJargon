@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-/* html {
+html {
 	color-scheme: light dark;
-} */
+}
 :root {
 	/* color-scheme: light dark; */
 	--hover-color: #0366d6; /* Consistent hover color */
