@@ -1677,6 +1677,16 @@ const acronyms: acronym[] = [
 			'PII is any information that can be used to identify an individual, such as name, address, phone number, and social security number. It is subject to privacy regulations and must be protected to prevent identity theft and data breaches.',
 		markdown: '#todo',
 		related: []
+	},
+	// network-access-control
+	{
+		slug: 'network-access-control',
+		acronym: 'NAC',
+		full_form: 'Network Access Control',
+		description:
+			'NAC is a security solution that enforces policies on devices attempting to access a network. It ensures that only authorized and compliant devices can connect to the network, helping to protect against unauthorized access and threats.',
+		markdown: '#todo',
+		related: []
 	}
 ];
 
