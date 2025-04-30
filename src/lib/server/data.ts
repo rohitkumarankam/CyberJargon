@@ -1258,6 +1258,16 @@ const acronyms: acronym[] = [
 		markdown: '#todo',
 		related: []
 	},
+	// tunneled-transport-layer-security
+	{
+		slug: 'tunneled-transport-layer-security',
+		acronym: 'TTLS',
+		full_form: 'Tunneled Transport Layer Security',
+		description:
+			'TTLS is an extension of the TLS protocol that allows for secure communication over a network. It is commonly used in wireless networks to provide secure authentication and encryption.',
+		markdown: '#todo',
+		related: []
+	},
 	// trust-on-first-use
 	{
 		slug: 'trust-on-first-use',
