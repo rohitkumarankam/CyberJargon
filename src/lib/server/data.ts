@@ -1737,6 +1737,126 @@ const acronyms: acronym[] = [
 			'NAC is a security solution that enforces policies on devices attempting to access a network. It ensures that only authorized and compliant devices can connect to the network, helping to protect against unauthorized access and threats.',
 		markdown: '#todo',
 		related: []
+	},
+	// zero-trust-network-access
+	{
+		slug: 'zero-trust-network-access',
+		acronym: 'ZTNA',
+		full_form: 'Zero Trust Network Access',
+		description:
+			'ZTNA is a security model that requires strict identity verification for every person and device trying to access resources on a private network, regardless of whether they are inside or outside the network perimeter.',
+		markdown: '#todo',
+		related: []
+	},
+	// cloud-access-security-broker
+	{
+		slug: 'cloud-access-security-broker',
+		acronym: 'CASB',
+		full_form: 'Cloud Access Security Broker',
+		description:
+			'CASB is a security policy enforcement point placed between cloud service consumers and providers to enforce security policies as cloud-based resources are accessed. It provides visibility and control over data in the cloud.',
+		markdown: '#todo',
+		related: []
+	},
+	// security-service-edge
+	{
+		slug: 'security-service-edge',
+		acronym: 'SSE',
+		full_form: 'Security Service Edge',
+		description:
+			'SSE is a cloud-based security model that provides security services such as secure web gateway, CASB, and zero trust network access. It is designed to protect users and data in a cloud-first environment.',
+		markdown: '#todo',
+		related: []
+	},
+	// secure-access-service-edge
+	{
+		slug: 'secure-access-service-edge',
+		acronym: 'SASE',
+		full_form: 'Secure Access Service Edge',
+		description:
+			'SASE is a cloud-based security architecture that combines network security functions with wide area networking (WAN) capabilities. It provides secure access to applications and data regardless of location.',
+		markdown: '#todo',
+		related: []
+	},
+	// remote-browser-isolation
+	{
+		slug: 'remote-browser-isolation',
+		acronym: 'RBI',
+		full_form: 'Remote Browser Isolation',
+		description:
+			'RBI is a security technology that isolates web browsing activity from the endpoint device. It prevents malware and other threats from reaching the device by executing web content in a remote environment.',
+		markdown: '#todo',
+		related: []
+	},
+	// secure-web-gateway
+	{
+		slug: 'secure-web-gateway',
+		acronym: 'SWG',
+		full_form: 'Secure Web Gateway',
+		description:
+			'SWG is a security solution that protects users from web-based threats by filtering unwanted software and malware from user-initiated web traffic. It provides visibility and control over web usage and enforces security policies.',
+		markdown: '#todo',
+		related: []
+	},
+	// firewall-as-a-service
+	{
+		slug: 'firewall-as-a-service',
+		acronym: 'FWaaS',
+		full_form: 'Firewall as a Service',
+		description:
+			'FWaaS is a cloud-based security service that provides firewall protection for networks and applications. It offers scalability, flexibility, and centralized management of firewall policies and configurations.',
+		markdown: '#todo',
+		related: []
+	},
+	// software-as-a-service
+	{
+		slug: 'software-as-a-service',
+		acronym: 'SaaS',
+		full_form: 'Software as a Service',
+		description:
+			'SaaS is a software distribution model in which applications are hosted by a service provider and made available to customers over the Internet. It allows users to access software applications without the need for installation or maintenance.',
+		markdown: '#todo',
+		related: []
+	},
+	// platform-as-a-service
+	{
+		slug: 'platform-as-a-service',
+		acronym: 'PaaS',
+		full_form: 'Platform as a Service',
+		description:
+			'PaaS is a cloud computing model that provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the infrastructure. It includes tools and services for application development.',
+		markdown: '#todo',
+		related: []
+	},
+	// infrastructure-as-a-service
+	{
+		slug: 'infrastructure-as-a-service',
+		acronym: 'IaaS',
+		full_form: 'Infrastructure as a Service',
+		description:
+			'IaaS is a cloud computing model that provides virtualized computing resources over the Internet. It allows users to rent IT infrastructure, such as servers and storage, on a pay-as-you-go basis.',
+		markdown: '#todo',
+		related: []
+	},
+	// function-as-a-service
+	{
+		slug: 'function-as-a-service',
+		acronym: 'FaaS',
+		full_form: 'Function as a Service',
+		description:
+			'FaaS is a cloud computing model that allows users to run individual functions or pieces of code in response to events without managing servers. It is a serverless computing model that enables rapid development and deployment of applications.',
+		markdown: '#todo',
+		related: []
+	},
+	// next-generation-firewall
+	{
+		slug: 'next-generation-firewall',
+		acronym: 'NGFW',
+		full_form: 'Next Generation Firewall',
+		description:
+			'NGFW is a network security device that goes beyond traditional firewalls by providing advanced features such as application awareness, intrusion prevention and deep packet inspection. It is designed to protect networks from sophisticated threats and attacks.',
+		markdown: '#todo',
+		related: []
 	}
 ];
 
