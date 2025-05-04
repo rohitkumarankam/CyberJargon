@@ -1857,6 +1857,36 @@ const acronyms: acronym[] = [
 			'NGFW is a network security device that goes beyond traditional firewalls by providing advanced features such as application awareness, intrusion prevention and deep packet inspection. It is designed to protect networks from sophisticated threats and attacks.',
 		markdown: '#todo',
 		related: []
+	},
+	// open-id-connect
+	{
+		slug: 'open-id-connect',
+		acronym: 'OIDC',
+		full_form: 'Open ID Connect',
+		description:
+			'OIDC is an authentication layer built on top of the OAuth 2.0 protocol. It allows clients to verify the identity of end-users based on the authentication performed by an authorization server.',
+		markdown: '#todo',
+		related: []
+	},
+	// security-assertion-markup-language
+	{
+		slug: 'security-assertion-markup-language',
+		acronym: 'SAML',
+		full_form: 'Security Assertion Markup Language',
+		description:
+			'SAML is an open standard for exchanging authentication and authorization data between parties, particularly between an identity provider and a service provider. It is widely used for single sign-on (SSO) solutions.',
+		markdown: '#todo',
+		related: []
+	},
+	// ldap-directory-access-protocol
+	{
+		slug: 'ldap-directory-access-protocol',
+		acronym: 'LDAP',
+		full_form: 'Lightweight Directory Access Protocol',
+		description:
+			'LDAP is an application protocol used to access and maintain distributed directory information services over an Internet Protocol (IP) network. It is commonly used for directory services such as email and user authentication.',
+		markdown: '#todo',
+		related: []
 	}
 ];
 
